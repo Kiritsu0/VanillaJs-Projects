@@ -1,0 +1,64 @@
+body {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+#startStopBtn {
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 6rem;
+    padding: 0;
+}
+
+#play {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: green;
+}
+
+#pause {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+#resetBtn {
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    width: 6rem;
+    cursor: pointer;
+    background-color: red;
+}
